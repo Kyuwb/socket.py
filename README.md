@@ -1,7 +1,7 @@
 # socket.py
 import socket
 
-ip = raw_input("digite o alvo: ")
+ip = input("digite o alvo: ")
 
 for porta in range(1, 6000):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
